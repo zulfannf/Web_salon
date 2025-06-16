@@ -1,0 +1,406 @@
+/*============ Navbar =========*/
+body {
+    background-color: #F7F2F2;
+}
+.navbar {
+    display: flex;
+    justify-content: center;
+    /* margin-bottom: 20px; */
+    
+}
+.nav-size{
+    max-width: 1200px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 40px;
+    border-bottom: 1px solid #444;
+}
+
+.nav-left h1 {
+    font-family:'Lora';
+    font-style: italic;
+    font-weight: 400;
+}
+
+.nav-center a {
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+.nav-right i {
+    font-size: 1.2em;
+}
+
+
+/* ========= Body 1 =========  */
+
+.wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-jumbotron{
+    /* background-color: aqua; */
+    max-width: 1200px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content-a {
+    margin-left: 5rem;
+    font-size: 100px;
+    font-family: 'Lora';
+    font-style: italic;
+    font-weight: 500;
+}
+
+.content-img img {
+    margin-right: 5rem;
+    width: 120%;
+}
+
+/* ======= Welcome =======  */
+.wrapper-welcome {
+    padding-top: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* justify-content: space-between; */
+}
+
+.welcome {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+}
+
+
+.welcome-left img {
+    width: 360px;
+}
+
+.welcome-right {
+    padding-left: 50px;
+    width: 400px;
+    text-align: justify;
+    font-family: 'Lora';
+}
+
+.welcome-right h1 {
+    font-family: 'Lora';
+    font-style: italic;
+    font-weight: 500;
+}
+
+/* ========== Service ==========  */
+
+.wrapper-services {
+    /* background-color: bisque; */
+    padding-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.services {
+    /* background-color: aquamarine; */
+    /* max-width: 1200px; */
+    display: absolute;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper-abcservice {
+    /* display: flex; */
+    font-family: 'Lora';
+}
+
+.wrapper-abcservice h1 {
+    font-family: 'Lora';
+    font-weight: 500;
+    font-style: italic;
+}
+
+.wrapper-abcservice p {
+    max-width: 600px;
+}
+
+.wrapper-card {
+    display: flex;
+    /* justify-content: space-between; */
+}
+
+.card {
+    /* background-color: aqua; */
+    max-width: 200px;
+    margin: 15px ;
+    /* justify-content: space-between; */
+    /* display: absolute; */
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+
+.card img {
+    width: 200px;
+}
+
+.card-narrow {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* ===== Review =======  */
+
+.wrapper-review {
+    padding-top: 100px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.review {
+    justify-content: center;
+    align-items: center;
+    font-family: 'Lora';
+    /* max-width: 1200px; */
+}
+
+.wrapper-text-review {
+    max-width: 600px;
+}
+
+
+.review h1 {
+    font-family: 'Lora';
+    font-weight: 600;
+    font-style: italic;
+}
+
+.wrapper-profil-card {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.profil-card {
+    background-color: #F3E7E2;
+    max-width: 350px;
+    padding: 0 15px 5px 15px;
+    border: 2px solid #F3E7E2;
+    border-radius: 20px;
+    margin: 15px;
+}
+
+.profil {
+    display: flex;
+}
+
+.profil img {
+    width: 70px;
+    height: 70px;
+    margin-top: -20px;
+}
+
+.profil h1 {
+    font-size: large;
+}
+
+/* ========= Academy =========  */
+
+.wrapper-salon-academy {
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Lora';
+}
+
+.salon-academy {
+    max-width: 800px;
+    
+}
+
+.salon-academy h1 {
+    font-family: 'Lora';
+    font-weight: 500;
+    font-style: italic;
+}
+
+
+.wrapper-card-academy {
+    display: flex;
+    /* padding-right: 50px; */
+}
+.card-academy {
+    max-width: 150px;
+    margin: 15px ;
+}
+
+.card-academy img {
+    width: 150px;
+}
+
+.card-narrow-academy {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.academy-img img {
+    width: 350px;
+}
+
+/* Mitra Kami  */
+
+.wrapper-mitra-kami {
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.mitra-kami {
+    justify-content: center;
+    text-align: center;
+}
+
+.mitra-kami h1 {
+    font-family: 'Lora';
+    font-weight: 500;
+    font-style: italic;
+}
+
+.mitra-kami-blok {
+    display: flex;
+}
+
+.mitra-img {
+    max-width: 200px;
+    margin: 15px ;
+}
+
+/* Talita News  */
+
+.wrapper-salon-news {
+    padding-top: 100px;
+    padding-bottom: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.salon-news {
+    max-width: 1200px;
+    font-family: 'Lora';
+}
+
+.salon-news h1 {
+    font-family: 'Lora';
+    font-weight: 500;
+    font-style: italic;
+}
+
+.wrapper-card-news {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.card-news {
+    background-color: #F3E7E2;
+    max-width: 250px;
+    font-family: 'Lora';
+    border-radius: 20px;
+}
+.card-news h1 {
+    font-family: 'Lora';
+    font-style: italic;
+    font-size: large;
+    font-weight: 600;
+    margin: 15px;
+}
+
+.card-news p {
+    margin: 15px;
+}
+
+.card-news-arrow {
+    align-items: center;
+    display: flex;
+    justify-content: end;
+    margin: 15px;
+}
+
+.card-news-arrow a {
+    text-decoration: none;
+}
+
+.card-news img {
+    width: 250px;
+}
+
+/*  Footer  */
+
+.footer {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    background-color: #1E1E1E;
+    color: white;
+    justify-content: space-evenly;
+}
+
+.footer-glow {
+    max-width: 300px;
+}
+
+.footer-contactus {
+    max-width: 300px;
+}
+
+.footer-sosmed h1 {
+    color: white;
+    font-family: 'Lora';
+}
+
+.footer-sosmed-icons {
+    display: flex;
+    flex-direction: column;
+}
+
+.sosmed-instagram, .sosmed-tiktok {
+    align-items: center;
+    display: flex;
+
+}
+
+.sosmed-instagram a, .sosmed-tiktok a {
+    text-decoration: none;
+    padding-left: 10px;
+}
+
+.footer-sosmed-icons img {
+    width: 25px;
+    margin-top: 10px;
+}
+
+
+/* Copy Right  */
+
+.copy-right {
+    background-color: #0C0C0C;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.p2, .copy-right-icon {
+    padding-left: 10px;
+}
+
