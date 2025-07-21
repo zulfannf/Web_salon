@@ -11,7 +11,7 @@ function loadComponent(id, filePath) {
 };
 
 document.addEventListener("DOMContentLoaded", () => {
-    loadComponent("navbar", "/components/navbar.html");
-    loadComponent("footer", "/components/footer.html");
-    loadComponent("copyright", "/components/copyright.html");
+    loadComponent("navbar", "../components/navbar.html");
+    loadComponent("footer", "../components/footer.html");
+    loadComponent("copyright", "../components/copyright.html");
 });
