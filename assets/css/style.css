@@ -1,3 +1,16 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lora';
+    scroll-behavior: smooth;
+}
+
+.container {
+    width: 80%;
+    margin-inline: auto;
+}
+
 /*============ Navbar =========*/
 body {
     background-color: #F7F2F2;
@@ -5,11 +18,9 @@ body {
 .navbar {
     display: flex;
     justify-content: center;
-    /* margin-bottom: 20px; */
     
 }
 .nav-size{
-    max-width: 1200px;
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -34,55 +45,47 @@ body {
 }
 
 
-/* ========= Body 1 =========  */
+/* todo Body 1 */
 
-.wrapper {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.container-jumbotron{
-    /* background-color: aqua; */
-    max-width: 1200px;
+.header {
     width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.content-a {
-    margin-left: 5rem;
-    font-size: 100px;
-    font-family: 'Lora';
+    min-height: 100vh;
+    font-size: 80px;
     font-style: italic;
     font-weight: 500;
 }
 
-.content-img img {
-    margin-right: 5rem;
-    width: 120%;
+
+.header .header-box .content .content-box {
+    display: flex;
 }
 
-/* ======= Welcome =======  */
-.wrapper-welcome {
-    padding-top: 150px;
+.header .header-box .content .content-box h1 {
+    font-family:'Lora';
+    font-style: italic;
+    font-weight: 400;
+    font-size: larger;
     display: flex;
     align-items: center;
-    justify-content: center;
-    /* justify-content: space-between; */
 }
+
+.header .header-box .content .content-box img {
+    width: 50%;
+}
+
+/* todo Welcome  */
 
 .welcome {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    max-width: 1200px;
+    width: 100%;
+    min-height: 100vh;
 }
 
+.welcome .welcome-box {
+    display: flex;
+}
 
-.welcome-left img {
-    width: 360px;
+.welcome .welcome-box .box:nth-child(1) img {
+    width: 100%;
 }
 
 .welcome-right {
