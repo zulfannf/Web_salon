@@ -45,7 +45,7 @@ body {
 }
 
 
-/* todo Body 1 */
+/* todo ========== Body 1 ========== */
 
 .header {
     width: 100%;
@@ -73,7 +73,7 @@ body {
     width: 50%;
 }
 
-/* todo Welcome  */
+/* todo ========== Welcome ==========  */
 
 .welcome {
     width: 100%;
@@ -82,78 +82,55 @@ body {
 
 .welcome .welcome-box {
     display: flex;
+    gap: 50px;
 }
 
 .welcome .welcome-box .box:nth-child(1) img {
     width: 100%;
 }
 
-.welcome-right {
-    padding-left: 50px;
-    width: 400px;
-    text-align: justify;
-    font-family: 'Lora';
-}
-
-.welcome-right h1 {
-    font-family: 'Lora';
-    font-style: italic;
-    font-weight: 500;
-}
-
-/* ========== Service ==========  */
-
-.wrapper-services {
-    /* background-color: bisque; */
-    padding-top: 100px;
+.welcome .welcome-box .box:nth-child(2){
+    width: 50%;
     display: flex;
-    align-items: center;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
 }
+
+.welcome .welcome-box .box:nth-child(2) h1 {
+    font-family: 'Lora';
+}
+
+
+/* todo ========== Service ==========  */
 
 .services {
-    /* background-color: aquamarine; */
-    /* max-width: 1200px; */
-    display: absolute;
-    justify-content: center;
-    align-items: center;
+    width: 100%;
+    min-height: 100vh;
 }
 
-.wrapper-abcservice {
-    /* display: flex; */
+.services .caption {
     font-family: 'Lora';
 }
 
-.wrapper-abcservice h1 {
+.services .caption h1 {
     font-family: 'Lora';
-    font-weight: 500;
-    font-style: italic;
 }
 
-.wrapper-abcservice p {
-    max-width: 600px;
-}
-
-.wrapper-card {
+.services .card {
     display: flex;
-    /* justify-content: space-between; */
 }
 
-.card {
-    /* background-color: aqua; */
+.services .card .box {  
     max-width: 200px;
     margin: 15px ;
-    /* justify-content: space-between; */
-    /* display: absolute; */
-    /* justify-content: center; */
-    /* align-items: center; */
 }
 
-.card img {
+.services .card .box img {
     width: 200px;
 }
 
-.card-narrow {
+.services .card .box .card-narrow {
     display: flex;
     align-items: center;
     justify-content: center;
